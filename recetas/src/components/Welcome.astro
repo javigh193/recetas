@@ -15,7 +15,7 @@ import Card from "./Card.astro";
 		</div> 
 		<div class="grid gap-8 mb-6 lg:mb-16 md:grid-cols-2">
 				{recetas.map(receta => (
-					<Card name={receta.name} description={receta.description} image={receta.image} />
+					<Card id={receta.id} name={receta.name} description={receta.description} image={receta.image} />
 				)
 				)}	
 		</div>  
