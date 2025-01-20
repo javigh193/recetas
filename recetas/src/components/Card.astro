@@ -1,11 +1,11 @@
 ---
-const { name, description, ingredient } = Astro.props
+const { name, description, ingredient, image } = Astro.props
 import pizzaImg from '../../public/pizza.png'
 
 ---
 <div class="items-center bg-gray-50 rounded-lg shadow sm:flex dark:bg-gray-800 dark:border-gray-700">
     <a href="#">
-        <img class="w-full rounded-lg sm:rounded-none sm:rounded-l-lg" src={pizzaImg.src} alt="comida">
+        <img class="w-full rounded-lg sm:rounded-none sm:rounded-l-lg" src={image} alt="comida">
     </a>
     <div class="p-5">
         <h3 class="text-xl font-bold tracking-tight text-gray-900 dark:text-white">
