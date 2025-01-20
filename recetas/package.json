@@ -1,0 +1,19 @@
+{
+  "name": "recetas",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/tailwind": "^5.1.4",
+    "astro": "^5.1.7",
+    "axios": "^1.7.9",
+    "json-server": "^1.0.0-beta.3",
+    "recetas": "file:",
+    "tailwindcss": "^3.4.17"
+  }
+}
