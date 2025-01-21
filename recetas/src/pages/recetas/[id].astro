@@ -1,9 +1,11 @@
 ---
 import type { GetStaticPaths } from "astro";
 import Footer from "../../components/Footer.astro";
-import Navbar from "../../components/Navbar.astro";
+import NavbarB from "../../components/NavbarB.astro";
 import Layout from "../../layouts/Layout.astro";
 import RecipeView from "../../components/RecipeView.astro";
+
+export const prerender = false;
 
 // Función para generar las rutas dinámicas
 export const getStaticPaths: GetStaticPaths = async () => {
@@ -27,6 +29,7 @@ const {name, description, ingredients, instructions, image} = receta
 
 ---
 <Layout>
-	<Navbar />
-<RecipeView name={name} description={description} ingredients={ingredients} instructions={instructions} image={image}/>
+	<NavbarB />
+  <RecipeView name={name} description={description} ingredients={ingredients} instructions={instructions} image={image}/>
+  <Footer/>
 </Layout>
