@@ -1,6 +1,6 @@
 ---
-import Card from "./Card.astro";
-
+import Card from "./Card.tsx";
+import type Recipe from "../interfaces/Recipe"
   const response = await fetch('http://localhost:3001/recetas');
   const data = await response.json();
   const recetas = data
@@ -15,9 +15,9 @@ import Card from "./Card.astro";
 		</div> 
 		<div class="grid gap-8 mb-6 lg:mb-16 md:grid-cols-2">
 				{recetas.map(receta => (
-					<Card id={receta.id} name={receta.name} description={receta.description} image={receta.image} />
+					<Card client:load id={receta.id} name={receta.name} description={receta.description} image={receta.image} fav={receta.favorite} />
 				)
-				)}	
+				)}
 		</div>  
 	</div>
   </section>

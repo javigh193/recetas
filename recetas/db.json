@@ -1,44 +1,36 @@
 {
   "recetas": [
     {
-      "id": 1,
+      "id": "1",
       "name": "Torta de Chocolate",
       "description": "Un delicioso pastel de chocolate esponjoso con cobertura de crema de cacao.",
-      "ingredients": [
-        "harina",
-        "azúcar",
-        "huevo",
-        "chocolate",
-        "mantequilla",
-        "leche"
-      ],
-      "instructions": "1. Precalentar el horno a 180°C. 2. Batir los huevos con el azúcar hasta que la mezcla se vuelva suave. 3. Derretir el chocolate y la mantequilla y añadir a la mezcla. 4. Incorporar la harina y la leche, mezclar bien. 5. Verter la mezcla en un molde engrasado y hornear durante 30 minutos.",
-      "image": "/images/torta_de_chocolate.png"
+      "image": "/images/torta_de_chocolate.png",
+      "fav": true
     },
     {
-      "id": 2,
+      "id": "2",
       "name": "Ensalada César",
       "description": "Una ensalada fresca con lechuga, pollo, crutones y aderezo César.",
-      "ingredients": [
-        "lechuga",
-        "pollo",
-        "crutones",
-        "queso parmesano",
-        "aderezo césar"
-      ],
-      "instructions": "1. Cocinar el pollo a la parrilla o en una sartén. 2. Cortar la lechuga en trozos y colocar en un bol grande. 3. Agregar los crutones y el pollo cortado en tiras. 4. Rociar con aderezo César y mezclar bien. 5. Espolvorear queso parmesano rallado por encima.",
-      "image": "/images/cesar.png"
+      "image": "/images/cesar.png",
+      "fav": false
     },
     {
-      "id": 3,
+      "id": "3",
       "name": "Sopa de Tomate",
       "description": "Una sopa cremosa de tomate con un toque de albahaca.",
-      "ingredients": ["tomate", "cebolla", "ajo", "albahaca", "crema"],
+      "ingredients": [
+        "tomate",
+        "cebolla",
+        "ajo",
+        "albahaca",
+        "crema"
+      ],
       "instructions": "1. Picar la cebolla y el ajo y sofreír en una sartén con aceite hasta que estén dorados. 2. Añadir los tomates picados y cocinar por 10 minutos. 3. Agregar caldo de verduras y dejar hervir. 4. Triturar la mezcla con una licuadora hasta que quede suave. 5. Añadir la crema y albahaca picada antes de servir.",
-      "image": "/images/gazpacho.png"
+      "image": "/images/gazpacho.png",
+      "favorite": false
     },
     {
-      "id": 4,
+      "id": "4",
       "name": "Pizza Margarita",
       "description": "Pizza clásica con salsa de tomate, queso mozzarella y albahaca fresca.",
       "ingredients": [
@@ -48,10 +40,11 @@
         "albahaca"
       ],
       "instructions": "1. Precalentar el horno a 220°C. 2. Estirar la masa de pizza sobre una bandeja para hornear. 3. Extender una capa de salsa de tomate sobre la masa. 4. Colocar el queso mozzarella en trozos sobre la salsa. 5. Hornear durante 10-15 minutos hasta que la masa esté dorada y el queso derretido. 6. Agregar hojas de albahaca fresca antes de servir.",
-      "image": "/images/pizza.png"
+      "image": "/images/pizza.png",
+      "favorite": false
     },
     {
-      "id": 5,
+      "id": "5",
       "name": "Tacos de Carnitas",
       "description": "Tacos tradicionales de cerdo desmenuzado con cebolla y cilantro.",
       "ingredients": [
@@ -62,18 +55,26 @@
         "limón"
       ],
       "instructions": "1. Cocinar la carne de cerdo en una olla con agua, cebolla y especias hasta que esté tierna. 2. Desmenuzar la carne de cerdo. 3. Calentar las tortillas en un sartén. 4. Colocar la carne desmenuzada en las tortillas. 5. Agregar cebolla picada, cilantro y unas gotas de limón al gusto.",
-      "image": "/images/taquitos.png"
+      "image": "/images/taquitos.png",
+      "favorite": false
     },
     {
-      "id": 6,
+      "id": "6",
       "name": "Guacamole",
       "description": "Una mezcla cremosa de aguacate, tomate, cebolla y limón.",
-      "ingredients": ["aguacate", "tomate", "cebolla", "limón", "cilantro"],
+      "ingredients": [
+        "aguacate",
+        "tomate",
+        "cebolla",
+        "limón",
+        "cilantro"
+      ],
       "instructions": "1. Pelar y triturar los aguacates en un bol. 2. Picar finamente el tomate, la cebolla y el cilantro. 3. Añadir los ingredientes picados al aguacate. 4. Exprimir el jugo de limón y mezclar bien. 5. Servir inmediatamente con tortillas o como acompañamiento.",
-      "image": "/images/nachos.png"
+      "image": "/images/nachos.png",
+      "favorite": false
     },
     {
-      "id": 7,
+      "id": "7",
       "name": "Paella Valenciana",
       "description": "Un plato tradicional español con arroz, mariscos, pollo y verduras.",
       "ingredients": [
@@ -85,10 +86,11 @@
         "azafrán"
       ],
       "instructions": "1. Sofreír el pollo en una paellera con aceite hasta que esté dorado. 2. Añadir los pimientos cortados y los guisantes. 3. Incorporar el arroz y mezclar bien. 4. Verter caldo caliente y añadir el azafrán. 5. Cocinar durante 20 minutos, luego agregar los mariscos y continuar cocinando hasta que el arroz esté listo.",
-      "image": "/images/paella.png"
+      "image": "/images/paella.png",
+      "favorite": false
     },
     {
-      "id": 8,
+      "id": "8",
       "name": "Sushi de Atún",
       "description": "Sushi con arroz, alga nori y frescas láminas de atún.",
       "ingredients": [
@@ -98,10 +100,11 @@
         "vinagre de arroz"
       ],
       "instructions": "1. Cocinar el arroz de sushi según las instrucciones del paquete. 2. Enfriar el arroz y aliñarlo con vinagre de arroz. 3. Cortar el atún en láminas finas. 4. Colocar una hoja de alga nori sobre una esterilla para sushi y cubrir con una capa de arroz. 5. Colocar el atún en el centro y enrollar con la esterilla. 6. Cortar en trozos y servir.",
-      "image": "/images/sushi.png"
+      "image": "/images/sushi.png",
+      "favorite": false
     },
     {
-      "id": 9,
+      "id": "9",
       "name": "Croquetas de Jamón",
       "description": "Croquetas rellenas de jamón serrano y bechamel cremosa.",
       "ingredients": [
@@ -112,15 +115,23 @@
         "pan rallado"
       ],
       "instructions": "1. Derretir la mantequilla y añadir la harina para hacer una roux. 2. Agregar la leche poco a poco y cocinar hasta obtener una salsa espesa. 3. Incorporar el jamón serrano picado y mezclar bien. 4. Dejar enfriar la mezcla y formar pequeñas bolas. 5. Pasar las croquetas por pan rallado y freír en aceite caliente hasta que estén doradas.",
-      "image": "/images/croquetas.png"
+      "image": "/images/croquetas.png",
+      "favorite": false
     },
     {
-      "id": 10,
+      "id": "10",
       "name": "Smoothie de Fresa y Plátano",
       "description": "Un batido refrescante y saludable con fresa y plátano.",
-      "ingredients": ["fresas", "plátano", "yogur", "miel", "hielo"],
+      "ingredients": [
+        "fresas",
+        "plátano",
+        "yogur",
+        "miel",
+        "hielo"
+      ],
       "instructions": "1. Colocar las fresas, el plátano y el yogur en una licuadora. 2. Añadir miel al gusto y un poco de hielo. 3. Licuar hasta obtener una mezcla suave. 4. Servir en un vaso y disfrutar.",
-      "image": "/images/smoothie.png"
+      "image": "/images/smoothie.png",
+      "favorite": false
     }
   ]
 }
