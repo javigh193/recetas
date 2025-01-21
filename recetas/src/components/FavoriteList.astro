@@ -3,7 +3,8 @@ import Card from "./Card.tsx";
 
   const response = await fetch('http://localhost:3001/recetas');
   const data = await response.json();
-  const recetas = data.map((recipe) => recipe.favorite === true)
+  let recetas = []
+	recetas = data.map((recipe) => recipe.favorite === true)
 
 ---
 
