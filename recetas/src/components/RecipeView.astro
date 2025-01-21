@@ -22,7 +22,13 @@ const {name, description, instructions, ingredients, image} = Astro.props
         <p
         class="inline-flex whitespace-pre-line items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-grey-500 rounded-lg bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900"
       >
-        {instructions}
+      <ol id="instr-list" style="list-style-type: decimal">
+        {
+        instructions.split(/\d. /).splice(1).map(instr => (
+          <li>{instr}</li>
+        ))
+        }
+      </ol>  
       </p>
         <a
           href="/"
